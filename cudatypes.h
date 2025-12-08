@@ -5,6 +5,10 @@
 // #define PRIbf16 
 // #define PRItf32
 
+// Utility masks
+
+#define INF 0x7C00
+
 // Constructors
 
 #define HALF(x) _Generic((x),   \
